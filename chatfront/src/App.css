@@ -1,0 +1,136 @@
+img{
+  display: block;
+  width: 180px;
+  height: 170px;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.chatMenu{
+  width: 880px;
+}
+.header{
+    display: flex;
+    background-color: #becbd9;
+}
+.mainMenu{
+  background-color: #d7dfe7;
+}
+
+.listMessages{
+  margin: 0;
+  padding: 0;
+  height: 425px;
+  max-height: 425px;
+  overflow-y: scroll;
+}
+
+.listMessages::-webkit-scrollbar {
+  width: 6px;
+  background: #f0f1f3;
+  height: 240px;
+}
+
+.listMessages::-webkit-scrollbar-thumb {
+  background: #264061;
+  height: 40px;
+}
+
+
+
+.alertEvent{
+  text-align: center;
+}
+
+.formSend{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.formSend input{
+  width: 650px;
+  height: 40px;
+}
+
+
+
+.chatUsers{
+  width: 260px;
+ 
+}
+
+.chatUsers__nav{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.chatUsers__nav h3{
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  background-color: #f8f8f8;
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.chatUsers__nav .isActive{
+  background-color: #fff;
+  border: none  ;
+}
+
+.listUsers{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 600px;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.userItem{
+  display: flex;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.userItem:hover{
+  background-color: grey;
+}
+
+.userItem_avatarImg{
+  width: 60px;
+  height: 60px;
+  
+}
+
+.userItem_name{
+  margin: 0;
+  padding: 0;
+}
+.userItem_about_text{
+  margin: 0;
+  padding: 0;
+}
+
+.userItem__isOnline{
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.searchUser{
+  display: block;
+  margin: 0 auto;
+}
+  
